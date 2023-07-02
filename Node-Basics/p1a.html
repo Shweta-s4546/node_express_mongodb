@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class sum {
+    constructor(x,y){
+        this.x1 = x;
+        this.y1 = y;
+    }
+
+    calculate(){
+        return this.x1 + this.y1
+    }
+}
+
+class addition extends sum {
+
+    constructor(a,b){
+        super(a,b)
+
+    }
+}
+
+let res = new addition(12,13)
+console.log('output =', res.calculate())
+    </script>
+</body>
+</html>
